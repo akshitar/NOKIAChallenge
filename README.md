@@ -11,19 +11,19 @@ of the co-occurrence, (3) number of users that accessed both URLs. The list shou
 sorted in the descending order by the number of users.
 
 Input file:
-2016-01-01T22:44:29+00:00,user0,http://a.com/
-2016-01-01T22:44:31+00:00,user1,http://a.com/store
-2016-01-01T22:44:31+00:00,kilroy,http://a.com/store
-2016-01-01T22:44:32+00:00,user0,http://a.com/contact
-2016-01-01T22:44:47+00:00,user0,http://a.com/store
-2016-01-01T22:44:52+00:00,user1,http://a.com/contact
-2016-01-01T22:44:57+00:00,user1,http://a.com/about
-2016-01-01T22:44:58+00:00,user0,http://a.com/store
-2016-01-01T22:44:59+00:00,kilroy,http://a.com/
+  2016-01-01T22:44:29+00:00,user0,http://a.com/
+  2016-01-01T22:44:31+00:00,user1,http://a.com/store
+  2016-01-01T22:44:31+00:00,kilroy,http://a.com/store
+  2016-01-01T22:44:32+00:00,user0,http://a.com/contact
+  2016-01-01T22:44:47+00:00,user0,http://a.com/store
+  2016-01-01T22:44:52+00:00,user1,http://a.com/contact
+  2016-01-01T22:44:57+00:00,user1,http://a.com/about
+  2016-01-01T22:44:58+00:00,user0,http://a.com/store
+  2016-01-01T22:44:59+00:00,kilroy,http://a.com/
 
 Sample output:
-http://a.com/ , http://a.com/store , 2
-http://a.com/contact , http://a.com/store , 2
-http://a.com/about , http://a.com/contact , 1
-http://a.com/ , http://a.com/contact , 1
-http://a.com/about , http://a.com/store , 1
+  http://a.com/ , http://a.com/store , 2
+  http://a.com/contact , http://a.com/store , 2
+  http://a.com/about , http://a.com/contact , 1
+  http://a.com/ , http://a.com/contact , 1
+  http://a.com/about , http://a.com/store , 1
